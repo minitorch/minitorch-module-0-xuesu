@@ -8,5 +8,5 @@
 * Overview: https://minitorch.github.io/module0.html
 
 # Task 0.5
-Simple, weight_0_0: 8, weight_1_0: 0, bias_0: -4
+Simple, weight_0_0: -8, weight_1_0: 0, bias_0: 4
 ![](./task_0_5.png)
