@@ -110,7 +110,7 @@ def test_sigmoid(a: float) -> None:
     assert 0.0 <= sigmoid(a) <= 1.0
     assert_close(sigmoid(0), 0.5)
     assert (
-        sigmoid(a - 1e-5) <= sigmoid(a) < sigmoid(a + 1e-5)
+        sigmoid(a - 1e-5) <= sigmoid(a) <= sigmoid(a + 1e-5)
     )  # Note: when x>=37, then sigmoid is already 1, when x <= -800, then sigmoid is already 0
 
 
